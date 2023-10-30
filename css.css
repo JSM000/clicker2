@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app{
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-size: 20px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+.monster{
+    width: 400px;
+    height: 300px;
+}
+
+.monster:hover{
+    cursor: pointer;
+    width: 410px;
+    height: 310px;
+}
+.monster:active{
+    width: 400px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+a{
+    display:none;
+    margin:20px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
